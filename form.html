@@ -2,20 +2,25 @@
 <html>
 <head>
     <title>Html Forms</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
  
 <body>
     <h2>Form and Form Elements</h2>
+    
+  
     <form>
-        <p>Gender : 
-            <label>Male</label>
+       
+        <p style="color:rgb(23, 20, 230)">Gender : 
+            <label class="gender">Male</label>
+          
             <input type="radio" name="gender" value="male" />
             <label>Female</label> 
             <input type="radio" name="gender" value="female" />
         </p>
-        <p>
+        <p style="color:rgb(228, 20, 159)">
             Language: 
-            <ul style="list-style-type:none;">
+            <ul class="language" style="list-style-type:none;">
                 <li>
                     <input type="checkbox" name="language" value="english" /> English
                 </li>
@@ -29,9 +34,9 @@
                 </li>
             </ul>
         </p>
-        <p>
-            <label>Nationality: </label>
-            <select name="nationality">
+        <p style="color:green">
+            <label class="Nationality">Nationality: </label>
+            <select style="color:rgb(15, 223, 119)" name="nationality">
                 <option value="british">British</option>
                 <option value="german">German</option>
                 <option value="uae">UAE</option>
@@ -54,6 +59,7 @@
         <p>
             <button type="submit">Submit</button>
         </p>
+        
         
     </form>
 </body>
