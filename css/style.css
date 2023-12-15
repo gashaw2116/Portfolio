@@ -1,0 +1,156 @@
+.container{
+    max-width: 950px;
+    margin: 0 autho;
+}
+.intro {
+    text-align: center;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 60% 50%;
+    
+   
+}
+@media (max-width:480px){
+    .about-grid{
+         grid: template 100%;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #feffff;
+}
+.navbar {
+    background:#09da13;
+}
+.nav-link,
+.navbar-brand {
+    color: hwb(0 4% 7%);
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #c0ccd8;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #1beeaf;
+    background:#110a24;
+    color:#dd2626;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 15px 30px 15px;
+ }
+ .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+ }
+
+ @media (max-width: 991.98px) {
+
+
+    .team {
+        padding: 0 15px;
+    }
+   
+ }
+ @media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+    .description h1 {
+        font-size: 2em;
+    }
+    .description p {
+        font-size: 1.2rem;
+    }
+    .features {
+        margin: 0;
+    }
+    .team {
+        max-width: 60%;
+    }
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.form-group {
+    margin-bottom: 5px;;
+}
+.background {
+	background: #dedec8;
+	padding: 4em 0;
+}
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
