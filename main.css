@@ -1,41 +1,7 @@
-.features .form-control,
-.features input {
-	border-radius: 0;
-}
-.features .btn {
-    background-color: #589b37;
-    border: 1px solid #589b37;
-    color: #fff;
-    margin-top: 20px;
-}
-.features .btn:hover {
-    background-color: #333;
-    border: 1px solid #333;
-}
-.form-group {
-    margin-bottom: 5px;;
-}
-.background {
-	background: #dedec8;
-	padding: 4em 0;
-}
-.team {
-	color: #5e5e55;
-	padding: 0 180px;
-}
-.team .card-columns {
-	-webkit-column-count: 4;
-	-moz-column-count: 4;
-	column-count: 4;
-}
-.team .card {
-	background:none;
-	border: none;
-}
-.team .card-title {
-	font-size: 1.3rem;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}
-
- 
+// var ready = (callback) => {
+    //     if (document.readyState != "loading") callback();
+    //     else document.addEventListener("DOMContentLoaded", callback);
+    // }
+    // ready(() => {
+    //     document.querySelector(".header").style.height = window.innerHeight + "px";
+    // })
